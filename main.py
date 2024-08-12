@@ -1,7 +1,7 @@
 # atividade 16
 pessoa = {}
 pessoa["nome"] = input('Informe o nome: ')
-pessoa["idade"] = input('Informe a Idade: ')
+#pessoa["idade"] = input('Informe a Idade: ')
 pessoa["CPF"] = input('Informe o CPF: ')
 pessoa["RG"] = input('Informe o RG: ')
 pessoa["data_nasc"] = input('Informe a data de nascimento: ')
@@ -26,4 +26,3 @@ pessoa["cor"] = input('Informe uma cor: ')
 print('\n')
 for tela in pessoa:
     print(f'{tela}: {pessoa.get(tela)}')
-    
